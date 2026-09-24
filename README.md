@@ -1,6 +1,6 @@
 # NanoVocoder audio demo
 
-**[Listen to the demo](https://zitaoliang.github.io/NanoVocoder-demo/)**
+**[Listen to the demo](index.html)**
 
 A minimal static audio comparison website, inspired by the
 [HiFi-GAN demo](https://jik876.github.io/hifi-gan-demo/).
