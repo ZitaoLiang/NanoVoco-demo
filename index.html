@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NanoVocoder audio samples: five LJSpeech test utterances comparing NanoVocoder with ground truth and seven neural vocoder baselines.">
+  <meta name="theme-color" content="#ffffff">
+  <title>NanoVocoder · Audio Samples</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#samples">Skip to audio samples</a>
+  <main>
+    <header class="page-header">
+      <p class="eyebrow">Audio samples</p>
+      <h1>NanoVocoder</h1>
+      <p class="intro">A compact neural vocoder with repeat-based upsampling and Dynamic Tanh.</p>
+    </header>
+    <section id="samples" aria-labelledby="samples-heading">
+      <div class="section-heading">
+        <h2 id="samples-heading">LJSpeech</h2>
+        <p>5 test utterances · 22.05 kHz</p>
+      </div>
+      <p class="listening-note">Listen with headphones for the best comparison.</p>
+      <div class="mobile-picker">
+        <label for="sample-select">Choose a sample</label>
+        <select id="sample-select">
+          <option value="0">Sample 01 · LJ005-0101</option>
+          <option value="1">Sample 02 · LJ008-0131</option>
+          <option value="2">Sample 03 · LJ013-0020</option>
+          <option value="3">Sample 04 · LJ026-0029</option>
+          <option value="4">Sample 05 · LJ029-0188</option>
+        </select>
+      </div>
+      <div class="comparison">
+        <table>
+          <caption class="sr-only">Ground truth and eight vocoders on five identical LJSpeech test utterances.</caption>
+          <thead><tr>
+            <th scope="col" class="model-heading">Model</th>
+            <th scope="col" data-sample="0" class="selected">
+              <span class="sample-number">Sample 01</span>
+              <span class="utterance">LJ005-0101</span>
+              <p class="transcript">whence it deduced the practice and condition of every prison that replied.</p>
+            </th>
+            <th scope="col" data-sample="1">
+              <span class="sample-number">Sample 02</span>
+              <span class="utterance">LJ008-0131</span>
+              <p class="transcript">the other he kept between his hands.</p>
+            </th>
+            <th scope="col" data-sample="2">
+              <span class="sample-number">Sample 03</span>
+              <span class="utterance">LJ013-0020</span>
+              <p class="transcript">he acted in a manner which excited the suspicions of the crew.</p>
+            </th>
+            <th scope="col" data-sample="3">
+              <span class="sample-number">Sample 04</span>
+              <span class="utterance">LJ026-0029</span>
+              <p class="transcript">so in the case under discussion.</p>
+            </th>
+            <th scope="col" data-sample="4">
+              <span class="sample-number">Sample 05</span>
+              <span class="utterance">LJ029-0188</span>
+              <p class="transcript">Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.</p>
+            </th>
+          </tr></thead>
+          <tbody>
+          <tr>
+            <th scope="row">Ground Truth</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="Ground Truth, sample 1, LJ005-0101">
+                <source src="ground_truth/LJ005-0101.wav" type="audio/wav">
+                <a href="ground_truth/LJ005-0101.wav">Download Ground Truth, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="Ground Truth, sample 2, LJ008-0131">
+                <source src="ground_truth/LJ008-0131.wav" type="audio/wav">
+                <a href="ground_truth/LJ008-0131.wav">Download Ground Truth, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="Ground Truth, sample 3, LJ013-0020">
+                <source src="ground_truth/LJ013-0020.wav" type="audio/wav">
+                <a href="ground_truth/LJ013-0020.wav">Download Ground Truth, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="Ground Truth, sample 4, LJ026-0029">
+                <source src="ground_truth/LJ026-0029.wav" type="audio/wav">
+                <a href="ground_truth/LJ026-0029.wav">Download Ground Truth, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="Ground Truth, sample 5, LJ029-0188">
+                <source src="ground_truth/LJ029-0188.wav" type="audio/wav">
+                <a href="ground_truth/LJ029-0188.wav">Download Ground Truth, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr class="ours">
+            <th scope="row">NanoVocoder<span class="ours-label">Ours</span></th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="NanoVocoder, sample 1, LJ005-0101">
+                <source src="nanovocoder/LJ005-0101.wav" type="audio/wav">
+                <a href="nanovocoder/LJ005-0101.wav">Download NanoVocoder, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="NanoVocoder, sample 2, LJ008-0131">
+                <source src="nanovocoder/LJ008-0131.wav" type="audio/wav">
+                <a href="nanovocoder/LJ008-0131.wav">Download NanoVocoder, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="NanoVocoder, sample 3, LJ013-0020">
+                <source src="nanovocoder/LJ013-0020.wav" type="audio/wav">
+                <a href="nanovocoder/LJ013-0020.wav">Download NanoVocoder, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="NanoVocoder, sample 4, LJ026-0029">
+                <source src="nanovocoder/LJ026-0029.wav" type="audio/wav">
+                <a href="nanovocoder/LJ026-0029.wav">Download NanoVocoder, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="NanoVocoder, sample 5, LJ029-0188">
+                <source src="nanovocoder/LJ029-0188.wav" type="audio/wav">
+                <a href="nanovocoder/LJ029-0188.wav">Download NanoVocoder, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">HiFi-GAN V2</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="HiFi-GAN V2, sample 1, LJ005-0101">
+                <source src="hifigan_v2/LJ005-0101.wav" type="audio/wav">
+                <a href="hifigan_v2/LJ005-0101.wav">Download HiFi-GAN V2, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="HiFi-GAN V2, sample 2, LJ008-0131">
+                <source src="hifigan_v2/LJ008-0131.wav" type="audio/wav">
+                <a href="hifigan_v2/LJ008-0131.wav">Download HiFi-GAN V2, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="HiFi-GAN V2, sample 3, LJ013-0020">
+                <source src="hifigan_v2/LJ013-0020.wav" type="audio/wav">
+                <a href="hifigan_v2/LJ013-0020.wav">Download HiFi-GAN V2, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="HiFi-GAN V2, sample 4, LJ026-0029">
+                <source src="hifigan_v2/LJ026-0029.wav" type="audio/wav">
+                <a href="hifigan_v2/LJ026-0029.wav">Download HiFi-GAN V2, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="HiFi-GAN V2, sample 5, LJ029-0188">
+                <source src="hifigan_v2/LJ029-0188.wav" type="audio/wav">
+                <a href="hifigan_v2/LJ029-0188.wav">Download HiFi-GAN V2, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">HiFi-GAN V1</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="HiFi-GAN V1, sample 1, LJ005-0101">
+                <source src="hifigan_v1/LJ005-0101.wav" type="audio/wav">
+                <a href="hifigan_v1/LJ005-0101.wav">Download HiFi-GAN V1, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="HiFi-GAN V1, sample 2, LJ008-0131">
+                <source src="hifigan_v1/LJ008-0131.wav" type="audio/wav">
+                <a href="hifigan_v1/LJ008-0131.wav">Download HiFi-GAN V1, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="HiFi-GAN V1, sample 3, LJ013-0020">
+                <source src="hifigan_v1/LJ013-0020.wav" type="audio/wav">
+                <a href="hifigan_v1/LJ013-0020.wav">Download HiFi-GAN V1, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="HiFi-GAN V1, sample 4, LJ026-0029">
+                <source src="hifigan_v1/LJ026-0029.wav" type="audio/wav">
+                <a href="hifigan_v1/LJ026-0029.wav">Download HiFi-GAN V1, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="HiFi-GAN V1, sample 5, LJ029-0188">
+                <source src="hifigan_v1/LJ029-0188.wav" type="audio/wav">
+                <a href="hifigan_v1/LJ029-0188.wav">Download HiFi-GAN V1, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Parallel WaveGAN</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="Parallel WaveGAN, sample 1, LJ005-0101">
+                <source src="parallel_wavegan/LJ005-0101.wav" type="audio/wav">
+                <a href="parallel_wavegan/LJ005-0101.wav">Download Parallel WaveGAN, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="Parallel WaveGAN, sample 2, LJ008-0131">
+                <source src="parallel_wavegan/LJ008-0131.wav" type="audio/wav">
+                <a href="parallel_wavegan/LJ008-0131.wav">Download Parallel WaveGAN, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="Parallel WaveGAN, sample 3, LJ013-0020">
+                <source src="parallel_wavegan/LJ013-0020.wav" type="audio/wav">
+                <a href="parallel_wavegan/LJ013-0020.wav">Download Parallel WaveGAN, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="Parallel WaveGAN, sample 4, LJ026-0029">
+                <source src="parallel_wavegan/LJ026-0029.wav" type="audio/wav">
+                <a href="parallel_wavegan/LJ026-0029.wav">Download Parallel WaveGAN, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="Parallel WaveGAN, sample 5, LJ029-0188">
+                <source src="parallel_wavegan/LJ029-0188.wav" type="audio/wav">
+                <a href="parallel_wavegan/LJ029-0188.wav">Download Parallel WaveGAN, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">FreGrad</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="FreGrad, sample 1, LJ005-0101">
+                <source src="fregrad/LJ005-0101.wav" type="audio/wav">
+                <a href="fregrad/LJ005-0101.wav">Download FreGrad, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="FreGrad, sample 2, LJ008-0131">
+                <source src="fregrad/LJ008-0131.wav" type="audio/wav">
+                <a href="fregrad/LJ008-0131.wav">Download FreGrad, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="FreGrad, sample 3, LJ013-0020">
+                <source src="fregrad/LJ013-0020.wav" type="audio/wav">
+                <a href="fregrad/LJ013-0020.wav">Download FreGrad, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="FreGrad, sample 4, LJ026-0029">
+                <source src="fregrad/LJ026-0029.wav" type="audio/wav">
+                <a href="fregrad/LJ026-0029.wav">Download FreGrad, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="FreGrad, sample 5, LJ029-0188">
+                <source src="fregrad/LJ029-0188.wav" type="audio/wav">
+                <a href="fregrad/LJ029-0188.wav">Download FreGrad, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">RNDVoC</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="RNDVoC, sample 1, LJ005-0101">
+                <source src="rndvoc/LJ005-0101.wav" type="audio/wav">
+                <a href="rndvoc/LJ005-0101.wav">Download RNDVoC, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="RNDVoC, sample 2, LJ008-0131">
+                <source src="rndvoc/LJ008-0131.wav" type="audio/wav">
+                <a href="rndvoc/LJ008-0131.wav">Download RNDVoC, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="RNDVoC, sample 3, LJ013-0020">
+                <source src="rndvoc/LJ013-0020.wav" type="audio/wav">
+                <a href="rndvoc/LJ013-0020.wav">Download RNDVoC, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="RNDVoC, sample 4, LJ026-0029">
+                <source src="rndvoc/LJ026-0029.wav" type="audio/wav">
+                <a href="rndvoc/LJ026-0029.wav">Download RNDVoC, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="RNDVoC, sample 5, LJ029-0188">
+                <source src="rndvoc/LJ029-0188.wav" type="audio/wav">
+                <a href="rndvoc/LJ029-0188.wav">Download RNDVoC, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">MelGAN</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="MelGAN, sample 1, LJ005-0101">
+                <source src="melgan/LJ005-0101.wav" type="audio/wav">
+                <a href="melgan/LJ005-0101.wav">Download MelGAN, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="MelGAN, sample 2, LJ008-0131">
+                <source src="melgan/LJ008-0131.wav" type="audio/wav">
+                <a href="melgan/LJ008-0131.wav">Download MelGAN, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="MelGAN, sample 3, LJ013-0020">
+                <source src="melgan/LJ013-0020.wav" type="audio/wav">
+                <a href="melgan/LJ013-0020.wav">Download MelGAN, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="MelGAN, sample 4, LJ026-0029">
+                <source src="melgan/LJ026-0029.wav" type="audio/wav">
+                <a href="melgan/LJ026-0029.wav">Download MelGAN, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="MelGAN, sample 5, LJ029-0188">
+                <source src="melgan/LJ029-0188.wav" type="audio/wav">
+                <a href="melgan/LJ029-0188.wav">Download MelGAN, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">BigVGAN-base</th>
+            <td data-sample="0" class="selected">
+              <audio controls preload="none" aria-label="BigVGAN-base, sample 1, LJ005-0101">
+                <source src="bigvgan_base/LJ005-0101.wav" type="audio/wav">
+                <a href="bigvgan_base/LJ005-0101.wav">Download BigVGAN-base, sample 1</a>
+              </audio>
+            </td>
+            <td data-sample="1">
+              <audio controls preload="none" aria-label="BigVGAN-base, sample 2, LJ008-0131">
+                <source src="bigvgan_base/LJ008-0131.wav" type="audio/wav">
+                <a href="bigvgan_base/LJ008-0131.wav">Download BigVGAN-base, sample 2</a>
+              </audio>
+            </td>
+            <td data-sample="2">
+              <audio controls preload="none" aria-label="BigVGAN-base, sample 3, LJ013-0020">
+                <source src="bigvgan_base/LJ013-0020.wav" type="audio/wav">
+                <a href="bigvgan_base/LJ013-0020.wav">Download BigVGAN-base, sample 3</a>
+              </audio>
+            </td>
+            <td data-sample="3">
+              <audio controls preload="none" aria-label="BigVGAN-base, sample 4, LJ026-0029">
+                <source src="bigvgan_base/LJ026-0029.wav" type="audio/wav">
+                <a href="bigvgan_base/LJ026-0029.wav">Download BigVGAN-base, sample 4</a>
+              </audio>
+            </td>
+            <td data-sample="4">
+              <audio controls preload="none" aria-label="BigVGAN-base, sample 5, LJ029-0188">
+                <source src="bigvgan_base/LJ029-0188.wav" type="audio/wav">
+                <a href="bigvgan_base/LJ029-0188.wav">Download BigVGAN-base, sample 5</a>
+              </audio>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <p id="audio-status" class="audio-status" role="status" aria-live="polite"></p>
+    </section>
+    <footer>
+      <p>Samples from <a href="https://keithito.com/LJ-Speech-Dataset/">LJSpeech</a>.
+        Layout inspired by the <a href="https://jik876.github.io/hifi-gan-demo/">HiFi-GAN demo</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
