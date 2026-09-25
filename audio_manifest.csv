@@ -1,6 +1,6 @@
 sample_order,basename,text,model,path,sample_rate,duration_seconds,sha256
 20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,Ground Truth,ground_truth/LJ005-0101.wav,22050,4.244762,2c0a940771e471af48954543f3c5221273a9796d40ba8df7772d69d993a9211e
-20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,NanoVocoder,nanovocoder/LJ005-0101.wav,22050,4.237642,6e582f8085a8a83165435c3d73fc310375691ce65f846157d12d8b5dacb302a1
+20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,NanoVoco,nanovoco/LJ005-0101.wav,22050,4.237642,6e582f8085a8a83165435c3d73fc310375691ce65f846157d12d8b5dacb302a1
 20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,HiFi-GAN V2,hifigan_v2/LJ005-0101.wav,22050,4.237642,bb6aa09d32d4e7d48c7cccff08d4635f9d4590a67e380fc0b02284751389ba2d
 20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,HiFi-GAN V1,hifigan_v1/LJ005-0101.wav,22050,4.237642,c02c6e240ed89cc9bb707234b4f67798b2a24d85d56521b0664236760ba95437
 20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,Parallel WaveGAN,parallel_wavegan/LJ005-0101.wav,22050,4.249252,6b671342dcea46420164c8dc0f798fe1a121d83b85f9c9eca94b78c028b33ac4
@@ -9,7 +9,7 @@ sample_order,basename,text,model,path,sample_rate,duration_seconds,sha256
 20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,MelGAN,melgan/LJ005-0101.wav,22050,4.237642,63faf5f027f2a72eef0fc70cf7e61ef538d0ecaf8234a1007c91673ba418ce65
 20,LJ005-0101,whence it deduced the practice and condition of every prison that replied.,BigVGAN-base,bigvgan_base/LJ005-0101.wav,22050,4.237642,8d1c0edcccff45c033cb9eb6b260288be09c72479eaacaf657636a5b28902291
 32,LJ008-0131,the other he kept between his hands.,Ground Truth,ground_truth/LJ008-0131.wav,22050,2.340726,763201848433a70c778a2c2a5b16b50a8e2d0351ea112a1ead3e2407e5a7c417
-32,LJ008-0131,the other he kept between his hands.,NanoVocoder,nanovocoder/LJ008-0131.wav,22050,2.333605,993c95846626ac54953897056fbf7b1fb7c581d7d100a01b2b75b2805ce7f242
+32,LJ008-0131,the other he kept between his hands.,NanoVoco,nanovoco/LJ008-0131.wav,22050,2.333605,993c95846626ac54953897056fbf7b1fb7c581d7d100a01b2b75b2805ce7f242
 32,LJ008-0131,the other he kept between his hands.,HiFi-GAN V2,hifigan_v2/LJ008-0131.wav,22050,2.333605,1ea2ce1f005e6339f2e1b60fd2a848f3cd080e1db37ef42028c8d71e38804526
 32,LJ008-0131,the other he kept between his hands.,HiFi-GAN V1,hifigan_v1/LJ008-0131.wav,22050,2.333605,6cfa2ba6118deca6078ea3f54617ef7d1bb26a6a38b9f4129de35a80f94635a0
 32,LJ008-0131,the other he kept between his hands.,Parallel WaveGAN,parallel_wavegan/LJ008-0131.wav,22050,2.345215,87c51521d311cca6050c696e9c601577e4aa789be4eb0d640d683fbdff3cbde3
@@ -18,7 +18,7 @@ sample_order,basename,text,model,path,sample_rate,duration_seconds,sha256
 32,LJ008-0131,the other he kept between his hands.,MelGAN,melgan/LJ008-0131.wav,22050,2.333605,a78b515adef3983704992a36c814bf04c56762122d974f94043d9cd0f37e21bf
 32,LJ008-0131,the other he kept between his hands.,BigVGAN-base,bigvgan_base/LJ008-0131.wav,22050,2.333605,e5b566155a399b1990bc2966c2686dc15da2f653e14f9b63345b89ab705daace
 49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,Ground Truth,ground_truth/LJ013-0020.wav,22050,3.664263,da6ab5f201d44ebd7cc9dd1ce8b7876ee5275b7420cfe24a4c82a5234030d96d
-49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,NanoVocoder,nanovocoder/LJ013-0020.wav,22050,3.657143,fa4bdb55d4d7d6baaf9f39a9ee8505597c9e2a61fd56c371b77dba398446b4ae
+49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,NanoVoco,nanovoco/LJ013-0020.wav,22050,3.657143,fa4bdb55d4d7d6baaf9f39a9ee8505597c9e2a61fd56c371b77dba398446b4ae
 49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,HiFi-GAN V2,hifigan_v2/LJ013-0020.wav,22050,3.657143,cfc8d1a92da24c0b43fd6968b9ad5b62da871ac65fa0c28e57809f9d1db84e39
 49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,HiFi-GAN V1,hifigan_v1/LJ013-0020.wav,22050,3.657143,4bd7582222055a8616c517776ea90627c1fcdfe7a1c7f9bc18b62b3881b0a255
 49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,Parallel WaveGAN,parallel_wavegan/LJ013-0020.wav,22050,3.668753,6613a8545d158ef6521c70e4e4f7cddfdf85789fb1f403484540d3778eb31f8b
@@ -27,7 +27,7 @@ sample_order,basename,text,model,path,sample_rate,duration_seconds,sha256
 49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,MelGAN,melgan/LJ013-0020.wav,22050,3.657143,79cfd030689ef817454ff5f805238e2290f273601aa306cf75c397da4ac1d22b
 49,LJ013-0020,he acted in a manner which excited the suspicions of the crew.,BigVGAN-base,bigvgan_base/LJ013-0020.wav,22050,3.657143,d4b4a8758aa5f353c4216efd9f44575ae1e8a307acf9b588d450e65cf003783f
 78,LJ026-0029,so in the case under discussion.,Ground Truth,ground_truth/LJ026-0029.wav,22050,1.969206,23a990f4c9cb986d0bbbedcde1fc75a566b2b566c81081ad220497d7a4f304a1
-78,LJ026-0029,so in the case under discussion.,NanoVocoder,nanovocoder/LJ026-0029.wav,22050,1.962086,4f719742b19e01b6ef39c62169a0fccb4036b78b9b9da859e11268904b8a6fec
+78,LJ026-0029,so in the case under discussion.,NanoVoco,nanovoco/LJ026-0029.wav,22050,1.962086,4f719742b19e01b6ef39c62169a0fccb4036b78b9b9da859e11268904b8a6fec
 78,LJ026-0029,so in the case under discussion.,HiFi-GAN V2,hifigan_v2/LJ026-0029.wav,22050,1.962086,734a97ad1376cbc050b5d8ee30cde9d6b25f8096f54b7bbf8649016dbd6eed65
 78,LJ026-0029,so in the case under discussion.,HiFi-GAN V1,hifigan_v1/LJ026-0029.wav,22050,1.962086,ae843bc276edf7d9aff6db97428f60690072aa77cb88aca5cb1eb41e73aed8cb
 78,LJ026-0029,so in the case under discussion.,Parallel WaveGAN,parallel_wavegan/LJ026-0029.wav,22050,1.973696,756ae94bfa04da169c47ec281c97720f7c2c8144860f1a0de221baadbc1a5355
@@ -36,7 +36,7 @@ sample_order,basename,text,model,path,sample_rate,duration_seconds,sha256
 78,LJ026-0029,so in the case under discussion.,MelGAN,melgan/LJ026-0029.wav,22050,1.962086,42e71418bad818d90da41e2f36765c93be3b806ce0a4af2db96f122540632f27
 78,LJ026-0029,so in the case under discussion.,BigVGAN-base,bigvgan_base/LJ026-0029.wav,22050,1.962086,0df82563775775a2b62d1e2efc08f7f4ca6428427e81e9f171fc0cd5970ac24c
 88,LJ029-0188,"Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.",Ground Truth,ground_truth/LJ029-0188.wav,22050,8.749433,4eba4479720952589cf9d6173200e8446a8fa264134ab7de3a39bfdb53e6a889
-88,LJ029-0188,"Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.",NanoVocoder,nanovocoder/LJ029-0188.wav,22050,8.742313,44feb16d7a4b10776face403f697879ad6b941c92929b794d545621a134f2f6f
+88,LJ029-0188,"Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.",NanoVoco,nanovoco/LJ029-0188.wav,22050,8.742313,44feb16d7a4b10776face403f697879ad6b941c92929b794d545621a134f2f6f
 88,LJ029-0188,"Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.",HiFi-GAN V2,hifigan_v2/LJ029-0188.wav,22050,8.742313,56d85d20960afce795d0f6368aa0fe7444dcc07bc2fc5cc79b6ce48215a7535e
 88,LJ029-0188,"Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.",HiFi-GAN V1,hifigan_v1/LJ029-0188.wav,22050,8.742313,334ce709857851aa7886d8b98695bab160fce1a079b23fbe8bb7c9ba7a187943
 88,LJ029-0188,"Stevenson was jeered, jostled, and spat upon by hostile demonstrators outside the Dallas Memorial Auditorium Theater.",Parallel WaveGAN,parallel_wavegan/LJ029-0188.wav,22050,8.753923,8b74ef069c751403dbb49d9c37a4b877819e26cee071103e8196ddec43cae26e

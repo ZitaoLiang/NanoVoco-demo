@@ -1,4 +1,4 @@
-# NanoVocoder audio demo
+# NanoVoco audio demo
 
 **[Listen to the demo](index.html)**
 
@@ -6,7 +6,7 @@ A minimal static audio comparison website, inspired by the
 [HiFi-GAN demo](https://jik876.github.io/hifi-gan-demo/).
 
 The page includes five LJSpeech test utterances and nine rows: Ground Truth,
-NanoVocoder, HiFi-GAN V2, HiFi-GAN V1, Parallel WaveGAN, FreGrad, RNDVoC,
+NanoVoco, HiFi-GAN V2, HiFi-GAN V1, Parallel WaveGAN, FreGrad, RNDVoC,
 MelGAN, and BigVGAN-base. All 45 original WAV files are included without
 resampling, trimming, or loudness normalization. They are mono at 22,050 Hz.
 
