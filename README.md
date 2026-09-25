@@ -45,6 +45,22 @@ Audio is loaded only when played. Switching samples pauses current playback;
 starting another player pauses the previous one. On small screens, the sample
 selector shows the same nine models for one utterance at a time.
 
+## Safari playback on the anonymous site
+
+The anonymous host does not provide byte-range responses for WAV files. If a
+browser cannot stream a WAV, the player loads a complete, lossless copy from
+`audio-inline/` and plays it locally as a data URL. Each copy contains exactly
+the original WAV bytes; no audio is recompressed or resampled. Loading stays
+on the anonymous host and does not use a public GitHub fallback.
+
+The small per-sample scripts work within the anonymous host's sandbox without
+cross-origin requests. They are loaded only after a media loading error and
+cached in the page. If the browser requires another user gesture, the page
+asks the listener to press Play again.
+
+After replacing any source audio and updating its manifest checksum, regenerate
+the compatibility assets with `python3 tools/build_audio_inline.py`.
+
 ## Reported results
 
 The title and scientific description follow the accompanying anonymous manuscript.
