@@ -24,10 +24,10 @@
       </nav>
       <dl class="highlights" aria-label="Paper-reported vocoder results">
         <div><dt>Parameters</dt><dd>72.3K</dd></div>
-        <div><dt>UTMOS · mean ± SD</dt><dd>3.71 <span>± 0.31</span></dd></div>
+        <div><dt>UTMOS · mean ± SD</dt><dd>3.7111 <span>± 0.3124</span></dd></div>
         <div><dt>CPU · × real time</dt><dd>42.98×</dd></div>
       </dl>
-      <p class="metric-context">Paper Table 1 · 128 LJSpeech utterances · CPU: AMD Ryzen 9 9950X3D, one thread, FP32</p>
+      <p class="metric-context">128 LJSpeech utterances · CPU: AMD Ryzen 9 9950X3D, one thread, FP32</p>
     </header>
     <section id="samples" aria-labelledby="samples-heading">
       <div class="section-heading">
@@ -383,21 +383,21 @@
       <summary>Paper results and deployment</summary>
       <section aria-labelledby="quality-heading">
         <h2 id="quality-heading">Vocoder quality and CPU throughput</h2>
-        <p>Table 1 of the paper (NanoVoco: seed 1234). UTMOS is an automatic score (mean ± SD over 128 utterances); WER is the mean utterance-level error rate with a 95% confidence interval.</p>
+        <p>Vocoder comparison (NanoVoco: seed 1234). UTMOS is an automatic score (mean ± SD over 128 utterances); WER is the mean utterance-level error rate with a 95% confidence interval.</p>
         <div class="results-scroll" role="region" aria-label="Paper results comparison" tabindex="0">
           <table class="results-table">
             <caption class="sr-only">Paper-reported vocoder quality and CPU throughput on LJSpeech.</caption>
             <thead><tr><th scope="col">Model</th><th scope="col">Parameters ↓</th><th scope="col">UTMOS ↑</th><th scope="col">WER (%) ↓<br>mean [95% CI]</th><th scope="col">CPU ↑<br>× real time</th></tr></thead>
             <tbody>
-            <tr class="ours"><th scope="row">NanoVoco (Ours)</th><td>72.3K</td><td>3.71 ± 0.31</td><td>3.28 [2.09, 4.46]</td><td>42.98</td></tr>
-            <tr><th scope="row">HiFi-GAN V2</th><td>926.0K</td><td>4.09 ± 0.26</td><td>3.10 [1.99, 4.21]</td><td>39.00</td></tr>
-            <tr><th scope="row">HiFi-GAN V1</th><td>13,936.1K</td><td>4.24 ± 0.22</td><td>2.65 [1.67, 3.63]</td><td>5.46</td></tr>
-            <tr><th scope="row">Parallel WaveGAN</th><td>1,334.3K</td><td>3.58 ± 0.30</td><td>3.25 [2.09, 4.41]</td><td>1.97</td></tr>
-            <tr><th scope="row">FreGrad</th><td>1,782.5K</td><td>3.25 ± 0.31</td><td>3.13 [2.04, 4.21]</td><td>1.14</td></tr>
-            <tr><th scope="row">RNDVoC</th><td>3,572.4K</td><td>3.98 ± 0.29</td><td>3.42 [2.17, 4.68]</td><td>7.87</td></tr>
-            <tr><th scope="row">MelGAN</th><td>4,266.1K</td><td>3.79 ± 0.31</td><td>3.19 [2.07, 4.30]</td><td>21.84</td></tr>
-            <tr><th scope="row">BigVGAN-base</th><td>13,943.4K</td><td>4.05 ± 0.27</td><td>3.14 [2.00, 4.28]</td><td>1.87</td></tr>
-            <tr><th scope="row">Ground Truth</th><td>—</td><td>4.37 ± 0.13</td><td>2.84 [1.81, 3.87]</td><td>—</td></tr>
+            <tr class="ours"><th scope="row">NanoVoco (Ours)</th><td>72.3K</td><td>3.7111 ± 0.3124</td><td>3.28 [2.09, 4.46]</td><td>42.98</td></tr>
+            <tr><th scope="row">HiFi-GAN V2</th><td>926.0K</td><td>4.0867 ± 0.2592</td><td>3.10 [1.99, 4.21]</td><td>39.00</td></tr>
+            <tr><th scope="row">HiFi-GAN V1</th><td>13,936.1K</td><td>4.2434 ± 0.2246</td><td>2.65 [1.67, 3.63]</td><td>5.46</td></tr>
+            <tr><th scope="row">Parallel WaveGAN</th><td>1,334.3K</td><td>3.7007 ± 0.3045</td><td>3.25 [2.09, 4.41]</td><td>1.97</td></tr>
+            <tr><th scope="row">FreGrad</th><td>1,782.5K</td><td>3.2719 ± 0.3283</td><td>3.13 [2.04, 4.21]</td><td>1.14</td></tr>
+            <tr><th scope="row">RNDVoC</th><td>3,572.4K</td><td>4.0712 ± 0.2521</td><td>3.42 [2.17, 4.68]</td><td>7.87</td></tr>
+            <tr><th scope="row">MelGAN</th><td>4,266.1K</td><td>3.7694 ± 0.3213</td><td>3.19 [2.07, 4.30]</td><td>21.84</td></tr>
+            <tr><th scope="row">BigVGAN-base</th><td>13,943.4K</td><td>4.1802 ± 0.2497</td><td>3.14 [2.00, 4.28]</td><td>1.87</td></tr>
+            <tr><th scope="row">Ground Truth</th><td>—</td><td>4.3737 ± 0.1292</td><td>2.84 [1.81, 3.87]</td><td>—</td></tr>
             </tbody>
           </table>
         </div>

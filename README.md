@@ -31,7 +31,7 @@ the page works under a GitHub Pages project path.
 ## Content
 
 - `index.html`: paper title and method summary, sample texts, audio players,
-  Table 1 results, and a separate summary of the complete MCU TTS system.
+  vocoder comparison results, and a separate summary of the complete MCU TTS system.
 - `style.css`: desktop comparison table and mobile single-sample layout.
 - `script.js`: pauses other players during playback and switches mobile samples.
 - `<model_directory>/<LJSpeech_ID>.wav`: original supplied audio.
@@ -64,8 +64,10 @@ the compatibility assets with `python3 tools/build_audio_inline.py`.
 ## Reported results
 
 The title and scientific description follow the accompanying anonymous manuscript.
-Vocoder numbers are from Table 1 (128 utterances); CPU conditions are in Appendix F.
+Vocoder results use 128 utterances, with UTMOS mean and standard deviation
+shown to four decimal places. Parameters, WER and CPU results follow Table 1;
+CPU conditions are in Appendix F.
 Complete TTS deployment figures come from §5.3 and Appendix G and are distinguished
 from vocoder-only results. The site does not host MCU-generated samples or firmware.
-All reported results are transcribed from the paper, not recalculated from the five
+Results are reported for the full evaluation set, not recalculated from the five
 listening examples. Links to code and weights use the anonymous repository.
